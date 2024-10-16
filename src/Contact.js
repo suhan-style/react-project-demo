@@ -2,6 +2,7 @@ import Helmet from 'react-helmet';
 import Titlebar from './Titlebar';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import YoutubeIcon from '@material-ui/icons/YouTube';
 
 const Contact = () => {
     return(
@@ -42,7 +43,7 @@ const Contact = () => {
                             <p><strong>Address:</strong> Sample text, Mumbai, India</p>
                             <p><strong>Email:</strong> admin@gmail.com</p>
                             <p><strong>Phone:</strong> +91-9999900000</p>
-                            <p><strong>Social:</strong> <FacebookIcon /> <InstagramIcon /></p>
+                            <p><strong>Social:</strong> <FacebookIcon /> <InstagramIcon /> <YoutubeIcon /></p>
                         </div>
                     </div>
                 </div>
