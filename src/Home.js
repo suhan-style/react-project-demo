@@ -4,7 +4,10 @@ const Home = () => {
     return(
         <>
             <div>
-                <Helmet><title>Home</title></Helmet>
+                <Helmet>
+                    <title>Home</title>
+                    <meta name='description' content='This is my Home Page' />
+                </Helmet>
             </div>
             <div className="home_banner">
                 <img src={banner} alt="banner" className="img-fluid" />
