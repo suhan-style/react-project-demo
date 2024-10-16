@@ -5,7 +5,10 @@ const About = () => {
     return(
         <>
             <div>
-                <Helmet><title>About</title></Helmet>
+                <Helmet>
+                    <title>About</title>
+                    <meta name="description" content="Join The Quorum Club for exclusive cultural events, discussions, and entertainment. Also, explore The Q co-working spaces for a dynamic work environment."></meta>
+                </Helmet>
             </div>
             <Titlebar title="ABOUT" />
             <div className="container">
