@@ -6,11 +6,7 @@ const About = () => {
         <>
             <div>
                 <Helmet>
-<<<<<<< HEAD
                     <title>About</title>
-=======
-                    <title>About Us</title>
->>>>>>> 7a52a6742a8886deaf31e08c91566f1af5b745c2
                     <meta name="description" content="Join The Quorum Club for exclusive cultural events, discussions, and entertainment. Also, explore The Q co-working spaces for a dynamic work environment."></meta>
                 </Helmet>
             </div>
